@@ -9,9 +9,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// Draft line: the alien's baffled take on human small talk.
+// The line: the alien's baffled take on the human sleep-then-coffee cycle,
+// told in the visitor's own mechanical frame. One joke, punch at the end.
 const LINE =
-  "Four stars. Strangers ask how I am, then panic if I actually answer. Lovely planet, terrible at follow-up questions. Would visit again.";
+  "Four stars. The locals power down for eight hours every night, then drink a bitter bean potion to boot up again. Would nap here again.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "out";
 mkdirSync(outDir, { recursive: true });
